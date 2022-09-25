@@ -1,0 +1,36 @@
+/* The style goes here */
+
+
+.menu-items {
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    list-style-type: none;
+    color: red;
+}
+
+li {
+    
+    display: inline;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.hero-section {
+    display: flex;
+    width: 100%;
+}
+
+.hero-items {
+    width: 50%;
+    
+    padding: 20px;
+    background-color: #05A95A;
+}
+
+.hero-banner {
+    width: 50%;
+}
