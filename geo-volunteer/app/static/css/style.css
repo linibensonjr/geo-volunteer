@@ -25,9 +25,9 @@ li {
 }
 
 .hero-items {
-    width: 50%;
-    
-    padding: 20px;
+    /* width: 50%;
+    */
+    padding: 20px; 
     background-color: #05A95A;
 }
 
