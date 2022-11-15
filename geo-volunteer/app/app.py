@@ -92,9 +92,9 @@ def home():
     return render_template('pages/index.html', opportunities=opportunities)
 
 @app.route('/org')
-def org():
+def orgs():
     organizations = Organization.query.all()
-    return render_template('pages/index.html', organizations=organizations)
+    return render_template('orgs/orgs.html', organizations=organizations)
 
 if __name__ == '__main__':
     app.run(debug=True, port=81)
